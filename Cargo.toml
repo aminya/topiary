@@ -66,16 +66,20 @@ thiserror = "2.0.21"
 tokio = "1.53"
 tokio-test = "0.4"
 toml = "1.1"
-tree-sitter-language = "0.1"
+tree-sitter-language = { git = "https://github.com/aminya/tree-sitter", rev = "c32463a56ad013c27326aed87aa0cb3f05cf5014", version = "0.1.8" }
 unescape = "0.1"
 wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4"
 wasm-bindgen-test = "0.3"
 web-sys = "0.3"
 
-# NOTE Keep these versions aligned
-tree-sitter = "=0.27.0"         # NOTE Update tree-sitter-loader to match
-tree-sitter-loader = "=0.27.0"  # NOTE Align with tree-sitter
+# Keep the Tree-sitter crates on the same fork revision. The loader pulls in
+# highlight and tags, which must use the same tree-sitter package source to
+# avoid duplicate `links = "tree-sitter"` packages.
+tree-sitter = { git = "https://github.com/aminya/tree-sitter", rev = "c32463a56ad013c27326aed87aa0cb3f05cf5014", version = "0.28.0" }
+tree-sitter-highlight = { git = "https://github.com/aminya/tree-sitter", rev = "c32463a56ad013c27326aed87aa0cb3f05cf5014", version = "0.28.0" }
+tree-sitter-loader = { git = "https://github.com/aminya/tree-sitter", rev = "c32463a56ad013c27326aed87aa0cb3f05cf5014", version = "0.28.0" }
+tree-sitter-tags = { git = "https://github.com/aminya/tree-sitter", rev = "c32463a56ad013c27326aed87aa0cb3f05cf5014", version = "0.28.0" }
 
 # NOTE Update these appropriately
 topiary-config = { version = "0.8.0", path = "./topiary-config" }

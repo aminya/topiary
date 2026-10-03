@@ -4712,9 +4712,8 @@ dependencies = [
 
 [[package]]
 name = "tree-sitter"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2038684e0058edba0d17302619f62eabce4a8e11c6ac59506996a8d79848851d"
+version = "0.28.0"
+source = "git+https://github.com/aminya/tree-sitter?rev=c32463a56ad013c27326aed87aa0cb3f05cf5014#c32463a56ad013c27326aed87aa0cb3f05cf5014"
 dependencies = [
  "cc",
  "regex",
@@ -4725,9 +4724,8 @@ dependencies = [
 
 [[package]]
 name = "tree-sitter-highlight"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fa86266a9dc1aae627034551d45e84427a45c70914a8629608ed1bd093214c28"
+version = "0.28.0"
+source = "git+https://github.com/aminya/tree-sitter?rev=c32463a56ad013c27326aed87aa0cb3f05cf5014#c32463a56ad013c27326aed87aa0cb3f05cf5014"
 dependencies = [
  "regex",
  "streaming-iterator",
@@ -4738,14 +4736,12 @@ dependencies = [
 [[package]]
 name = "tree-sitter-language"
 version = "0.1.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ca0d1bf6fdd806e43ae5198f82f527056d359def39e54e67a0f478ac09dac081"
+source = "git+https://github.com/aminya/tree-sitter?rev=c32463a56ad013c27326aed87aa0cb3f05cf5014#c32463a56ad013c27326aed87aa0cb3f05cf5014"
 
 [[package]]
 name = "tree-sitter-loader"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2ff22425bcf588ad50ac5b9573170070e6e637ecbb3c38528eae0d1fb670cbe"
+version = "0.28.0"
+source = "git+https://github.com/aminya/tree-sitter?rev=c32463a56ad013c27326aed87aa0cb3f05cf5014#c32463a56ad013c27326aed87aa0cb3f05cf5014"
 dependencies = [
  "cc",
  "etcetera",
@@ -4765,9 +4761,8 @@ dependencies = [
 
 [[package]]
 name = "tree-sitter-tags"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7cf8ad7a542c64d527fa35dd344d980c6e3b86ada979fba7a25fe2f162b988f8"
+version = "0.28.0"
+source = "git+https://github.com/aminya/tree-sitter?rev=c32463a56ad013c27326aed87aa0cb3f05cf5014#c32463a56ad013c27326aed87aa0cb3f05cf5014"
 dependencies = [
  "memchr",
  "regex",
